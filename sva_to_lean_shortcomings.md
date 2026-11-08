@@ -1,6 +1,6 @@
-# Limitations of `sva2lean4_v2.py`
+# Limitations of `sva2lean4.py`
 
-`sva2lean4_v2.py` is a small tokenizer and recursive-descent parser for a deliberately restricted subset of concurrent SVA. It builds a simple expression tree; it is **not** a complete SystemVerilog parser, and it does not prove that an assertion holds. Unsupported syntax is intended to raise `SVACompileError` rather than be translated approximately.
+`sva2lean4.py` is a small tokenizer and recursive-descent parser for a deliberately restricted subset of concurrent SVA. It builds a simple expression tree; it is **not** a complete SystemVerilog parser, and it does not prove that an assertion holds. Unsupported syntax is intended to raise `SVACompileError` rather than be translated approximately.
 
 ## Supported subset and model
 
